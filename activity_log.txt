@@ -1,3 +1,4 @@
 Commit on 2025-11-28T16:59:24Z: tweak loading state
 Commit on 2025-11-28T13:48:22Z: remove profile picture handling
 Commit on 2025-11-28T16:12:20Z: improve sidebar layout
+Commit on 2025-11-28T13:08:51Z: refactor login page
