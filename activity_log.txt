@@ -5,3 +5,4 @@ Commit on 2025-11-28T13:08:51Z: refactor login page
 Commit on 2025-11-29T15:41:37Z: add message formatting
 Commit on 2025-11-29T13:51:57Z: update login page
 Commit on 2025-11-29T10:49:26Z: remove profile picture handling
+Commit on 2025-11-30T16:37:11Z: update message formatting
