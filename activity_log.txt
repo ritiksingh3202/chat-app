@@ -41,3 +41,4 @@ Commit on 2025-12-08T17:29:25Z: fix socket connection
 Commit on 2025-12-09T15:10:05Z: refactor login page
 Commit on 2025-12-09T13:14:46Z: refactor login page
 Commit on 2025-12-09T15:04:14Z: tweak sidebar layout
+Commit on 2025-12-10T12:31:24Z: tweak signup flow
