@@ -47,3 +47,4 @@ Commit on 2025-12-10T17:05:51Z: fix error handling
 Commit on 2025-12-11T17:20:36Z: refactor profile picture handling
 Commit on 2025-12-11T16:17:38Z: tweak login page
 Commit on 2025-12-11T12:06:24Z: tweak signup flow
+Commit on 2025-12-12T15:33:32Z: improve sidebar layout
