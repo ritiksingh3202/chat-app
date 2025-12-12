@@ -49,3 +49,4 @@ Commit on 2025-12-11T16:17:38Z: tweak login page
 Commit on 2025-12-11T12:06:24Z: tweak signup flow
 Commit on 2025-12-12T15:33:32Z: improve sidebar layout
 Commit on 2025-12-12T17:50:53Z: update signup flow
+Commit on 2025-12-12T14:53:06Z: improve hooks
