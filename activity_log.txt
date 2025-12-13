@@ -52,3 +52,4 @@ Commit on 2025-12-12T17:50:53Z: update signup flow
 Commit on 2025-12-12T14:53:06Z: improve hooks
 Commit on 2025-12-12T15:41:38Z: add hooks
 Commit on 2025-12-13T13:15:27Z: fix unseen messages counter
+Commit on 2025-12-13T11:43:40Z: update online status
