@@ -57,3 +57,4 @@ Commit on 2025-12-13T13:52:49Z: update tailwind classes
 Commit on 2025-12-13T13:07:40Z: tweak signup flow
 Commit on 2025-12-14T13:45:30Z: refactor auth context
 Commit on 2025-12-14T12:02:28Z: update responsive design
+Commit on 2025-12-14T10:26:47Z: add tailwind classes
