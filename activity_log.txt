@@ -59,3 +59,4 @@ Commit on 2025-12-14T13:45:30Z: refactor auth context
 Commit on 2025-12-14T12:02:28Z: update responsive design
 Commit on 2025-12-14T10:26:47Z: add tailwind classes
 Commit on 2025-12-14T17:30:00Z: improve unseen messages counter
+Commit on 2025-12-15T17:36:49Z: implement sidebar layout
