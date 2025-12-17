@@ -66,3 +66,4 @@ Commit on 2025-12-16T12:40:22Z: update profile picture handling
 Commit on 2025-12-16T12:45:41Z: improve error handling
 Commit on 2025-12-16T14:26:55Z: improve unseen messages counter
 Commit on 2025-12-17T12:02:07Z: fix sidebar layout
+Commit on 2025-12-17T10:19:56Z: update message formatting
