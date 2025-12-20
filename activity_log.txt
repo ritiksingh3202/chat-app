@@ -77,3 +77,4 @@ Commit on 2025-12-19T11:21:31Z: add unseen messages counter
 Commit on 2025-12-19T11:30:53Z: implement chat container
 Commit on 2025-12-20T17:31:39Z: improve online status
 Commit on 2025-12-20T13:53:00Z: add loading state
+Commit on 2025-12-20T10:26:41Z: implement online status
