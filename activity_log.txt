@@ -89,3 +89,4 @@ Commit on 2025-12-22T14:22:56Z: add hooks
 Commit on 2025-12-23T13:12:50Z: refactor responsive design
 Commit on 2025-12-23T12:00:16Z: refactor sidebar layout
 Commit on 2025-12-23T16:48:28Z: update tailwind classes
+Commit on 2025-12-24T16:39:50Z: tweak responsive design
