@@ -93,3 +93,4 @@ Commit on 2025-12-24T16:39:50Z: tweak responsive design
 Commit on 2025-12-24T17:17:25Z: add unseen messages counter
 Commit on 2025-12-24T12:39:59Z: add login page
 Commit on 2025-12-24T17:28:40Z: update auth context
+Commit on 2025-12-25T11:40:35Z: fix online status
