@@ -99,3 +99,4 @@ Commit on 2025-12-25T10:29:58Z: implement profile picture handling
 Commit on 2025-12-26T11:03:15Z: refactor hooks
 Commit on 2025-12-26T10:32:43Z: remove profile picture handling
 Commit on 2025-12-26T13:00:54Z: implement unseen messages counter
+Commit on 2025-12-26T12:31:14Z: remove chat container
