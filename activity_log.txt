@@ -125,3 +125,4 @@ Commit on 2026-01-02T17:22:37Z: refactor message formatting
 Commit on 2026-01-02T10:22:48Z: remove hooks
 Commit on 2026-01-02T16:40:45Z: tweak hooks
 Commit on 2026-01-02T15:18:17Z: tweak signup flow
+Commit on 2026-01-03T11:02:11Z: refactor error handling
