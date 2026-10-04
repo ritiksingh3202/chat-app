@@ -1,7 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { AuthContext } from "./AuthContext";
-import { preprocessCSS } from "vite";
-
+import toast from "react-hot-toast";
 
 export const ChatContext = createContext();
 
@@ -48,7 +47,7 @@ export const ChatProvider = ({ children }) => {
                 setMessages((prevMessages) => [...prevMessages, data.newMessage])
             }
             else {
-                toast.error(error.message);
+                toast.error(data.message);
             }
         } catch (error) {
             toast.error(error.message);
@@ -69,8 +68,7 @@ export const ChatProvider = ({ children }) => {
             else {
                 setUnseenMessages((prevUnseenMessages) => ({
                     ...prevUnseenMessages, [newMessage.senderId]:
-                        prevUnseenMessages[newMessage.senderId] ? prevUnseenMessages
-                        [newMessage.senderId] + 1 : 1
+                        prevUnseenMessages[newMessage.senderId] ? prevUnseenMessages[newMessage.senderId] + 1 : 1
                 }))
             }
         })
@@ -79,11 +77,12 @@ export const ChatProvider = ({ children }) => {
     // function to unsubscribe from messages
     const unsubscribeFromMessages = () => {
         if (socket) socket.off("newMessage");
-        useEffect(() => {
-            subscribeToMessages();
-            return () => unsubscribeFromMessages();
-        }, [socket, selectedUser])
     }
+
+    useEffect(() => {
+        subscribeToMessages();
+        return () => unsubscribeFromMessages();
+    }, [socket, selectedUser])
 
     const value = {
         messages, users, selectedUser, getUsers, getMessages,

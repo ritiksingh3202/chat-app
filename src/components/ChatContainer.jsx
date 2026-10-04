@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
-import assets, { messagesDummyData } from '../assets/assets'
+import assets from '../assets/assets'
+import toast from "react-hot-toast"
 import { formatMessageTime } from '../lib/utils'
 import { useContext } from 'react'
 import { ChatContext } from '../../context/ChatContext'
@@ -41,7 +42,7 @@ const ChatContainer = () => {
         if (selectedUser) {
             getMessages(selectedUser._id);
         }
-    }, [selectedUser])
+    }, [selectedUser, getMessages])
 
     useEffect(() => {
         if (scrollEnd.current && messages) {

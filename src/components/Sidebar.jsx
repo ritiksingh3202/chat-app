@@ -5,7 +5,7 @@ import { AuthContext } from '../../context/AuthContext';
 import { ChatContext } from '../../context/ChatContext';
 
 const Sidebar = () => {
-    const { getUsers, users, selectedUser, setSelectedUser, unSeenMessages, setUnseenMessages } = useContext(ChatContext)
+    const { getUsers, users, selectedUser, setSelectedUser, unseenMessages, setUnseenMessages } = useContext(ChatContext)
 
     const { logout, onlineUsers } = useContext(AuthContext)
 
@@ -17,8 +17,8 @@ const Sidebar = () => {
         includes(input.toLowerCase())) : users;
 
     useEffect(() => {
-        getUsers
-    }, [onlineUsers])
+        getUsers()
+    }, [onlineUsers, getUsers])
 
     return (
         <div className={`bg-[#8185B2]/10 h-full p-5 rounded-r-xl overflow-y-scrolltext-white ${selectedUser ? "max-md:hidden" : ''}`}>
@@ -59,8 +59,8 @@ const Sidebar = () => {
                             }
                         </div>
                         {/* reomove index<2 now and write */}
-                        {unSeenMessages[user._id] > 0 && <p className='absolute top-4 right-4 text-xs h-5 w-5 
-                        flex justify-center items-center rounded-full bg-violet-500/50'>{unSeenMessages[user._id]}</p>}
+                        {unseenMessages && unseenMessages[user._id] > 0 && <p className='absolute top-4 right-4 text-xs h-5 w-5 
+                        flex justify-center items-center rounded-full bg-violet-500/50'>{unseenMessages[user._id]}</p>}
                     </div>
                 ))}
 
